@@ -16,8 +16,9 @@ public class Main {
         for (Person elem: persArray) {
             elem.info();
         }
-        System.out.println("\nЗадание 5. Вывести количество сотрудников старше 40 лет");
 
+        // вывод сотрудников с ограничением возраста > 40 лет
+        System.out.println("\nЗадание 5. Вывести количество сотрудников старше 40 лет");
         for (Person elem: persArray) {
             if(elem.age > 40) {
                 count++;
@@ -25,6 +26,5 @@ public class Main {
             }
         }
         System.out.println("Количество сотрудников старше 40 лет: " + count);
-
     }
 }
